@@ -6,9 +6,9 @@ export const DashboardRoutes = () => {
     <>
       <NavBar />
       <Routes>
-        <Route path="" element='' />
-        <Route path="" element='' />
-        <Route path="" element='' />
+        <Route path="/" element='' />
+        <Route path="/Heroes" element='' />
+        <Route path="/Villanos" element='' />
       </Routes>
     </>
   )
